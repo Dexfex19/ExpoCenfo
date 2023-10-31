@@ -11,6 +11,7 @@ La información emitida por el dispositivo se asocia a una reserva y se almacena
 
 El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que también garantiza el bienestar de la mascota ajustando la temperatura ambiente de la habitación. Esto se logra mediante la comunicación del dispositivo con otro IdeaBoard (ESP32), que controla un ventilador o abanico en la habitación del hotel. De esta manera, el dispositivo contribuye activamente a mantener un entorno cómodo y seguro para las mascotas.
 
+
 ## Características Principales
 
 - Monitoreo en tiempo real de la temperatura y la humedad relativa en la habitación de la mascota.
@@ -18,8 +19,10 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
 - La información que proporciona el  dispositivo permite generación de informes y visualización de datos para el dueño del hotel.
 - Comunicación con dispositivos de control de temperatura en la habitación de la mascota.
 
+
 ## Estructuras de datos
 
+Esta es la forma en que el dispositivo envía los datos en forma texto por medio de Json a la API de Pet Inc
 ```json
 [
     {
@@ -31,11 +34,11 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
 ]
 ```
 
+Esta es la forma en que el App_Logic onvierte y estructura los datos para ser enviados a la base de datos. 
 ![Clase Iot Data](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/07aa05b0-21f3-4bd6-8c04-77de32c0bc18)
 
 
 ## Diagrama flujo de transmisión de datos
-
 
 ![Transmision de datos 2](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/db20bdab-f474-435a-845f-0712acef08ca)
 
@@ -43,8 +46,6 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
 ## Diagrama conceptual de la solución
 
 ![Dispositivo](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/9e0d2ee6-4a36-454c-beb9-bd608ee858ba)
-
-
 
 
 ## Licencia
