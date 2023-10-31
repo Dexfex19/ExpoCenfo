@@ -25,7 +25,7 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
     {
         'momento': 'AAAA-MM-DD hh:mm:ss',
         'temperatura': '25 grados',
-        'humedadRelativa': 'Humedad relativa baja',
+        'humedadRelativa': '90',
         'dispositivo': '02'
     }
 ]
@@ -34,13 +34,17 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
 ![Clase Iot Data](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/07aa05b0-21f3-4bd6-8c04-77de32c0bc18)
 
 
+## Diagrama flujo de transmisión de datos
+
+
+![Transmision de datos 2](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/db20bdab-f474-435a-845f-0712acef08ca)
+
+
 ## Diagrama conceptual de la solución
 
 ![Dispositivo](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/9e0d2ee6-4a36-454c-beb9-bd608ee858ba)
 
-## Diagrama flujo de transmisión de datos
 
-![Transmision de datos](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/997ffa9e-3e2a-460b-9dad-af1fa2f53f80)
 
 
 ## Licencia
