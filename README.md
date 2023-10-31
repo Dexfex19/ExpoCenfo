@@ -26,6 +26,15 @@ El "ComfortPet Sensor" no solo monitoriza las condiciones ambientales, sino que 
 - La información que proporciona el  dispositivo permite generación de informes y visualización de datos para el dueño del hotel.
 - Comunicación con dispositivos de control de temperatura en la habitación de la mascota.
 
+## Diagrama conceptual de la solución
+
+![Dispositivo](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/9e0d2ee6-4a36-454c-beb9-bd608ee858ba)
+
+## Diagrama flujo de transmisión de datos
+
+![Transmision de datos](https://github.com/Dexfex19/ExpoCenfo/assets/65746618/997ffa9e-3e2a-460b-9dad-af1fa2f53f80)
+
+
 ## Licencia
 
 Este proyecto está licenciado bajo los términos de la Licencia MIT. 
